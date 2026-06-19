@@ -59,8 +59,7 @@ numeric_defaults = metadata["numeric_defaults"]
 # -----------------------------------------------------------------
 st.title("Claim Amount Predictor")
 st.caption(
-    "Estimate the expected claim amount for a given claim record. "
-    "Fill in the details below and click **Predict**."
+    "Estimate the expected claim amount for a given claim record."
 )
 
 with st.expander("About this model"):
@@ -75,11 +74,6 @@ with st.expander("About this model"):
         | RMSE | {metadata['model_rmse']:.2f} |
         | R² | {metadata['model_r2']:.3f} |
         | Training rows | {metadata['n_train_rows']:,} |
-
-        High-cardinality fields (e.g. doctor, provider, treatment code) are
-        target-encoded; lower-cardinality fields are one-hot encoded.
-        Predictions are estimates only and should support, not replace,
-        professional judgment.
         """
     )
 
