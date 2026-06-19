@@ -22,7 +22,6 @@ from pathlib import Path
 # -----------------------------------------------------------------
 st.set_page_config(
     page_title="Claim Amount Predictor",
-    page_icon="💰",
     layout="centered",
 )
 
