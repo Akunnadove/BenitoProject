@@ -176,4 +176,4 @@ if submitted:
 # FOOTER
 # -----------------------------------------------------------------
 st.divider()
-st.caption("Built with Streamlit · Linear Regression baseline model")
+st.caption("Baseline Model Built by Akunna Anyamkpa")
