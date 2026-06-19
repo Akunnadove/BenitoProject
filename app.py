@@ -57,7 +57,7 @@ numeric_defaults = metadata["numeric_defaults"]
 # -----------------------------------------------------------------
 # HEADER
 # -----------------------------------------------------------------
-st.title("💰 Claim Amount Predictor")
+st.title("Claim Amount Predictor")
 st.caption(
     "Estimate the expected claim amount for a given claim record. "
     "Fill in the details below and click **Predict**."
