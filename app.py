@@ -63,7 +63,7 @@ st.caption(
     "Fill in the details below and click **Predict**."
 )
 
-with st.expander("ℹ️ About this model"):
+with st.expander("About this model"):
     st.markdown(
         f"""
         This app uses a **Linear Regression** model trained on historical
@@ -130,7 +130,7 @@ with st.form("prediction_form"):
                     options=options if options else ["(no data)"],
                 )
 
-    submitted = st.form_submit_button("🔍 Predict Claim Amount", use_container_width=True)
+    submitted = st.form_submit_button("Predict Claim Amount", use_container_width=True)
 
 # -----------------------------------------------------------------
 # PREDICTION LOGIC
