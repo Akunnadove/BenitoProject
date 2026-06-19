@@ -83,7 +83,7 @@ with st.expander("About this model"):
 
         | Metric | Value |
         |---|---|
-        | MAE (avg. error, SRD) | {metadata['model_mae']:.2f} |
+        | MAE | {metadata['model_mae']:.2f} |
         | RMSE | {metadata['model_rmse']:.2f} |
         | R² | {metadata['model_r2']:.3f} |
         | Training rows | {metadata['n_train_rows']:,} |
